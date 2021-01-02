@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/header.css';
+import './styles/nav.css';
+import './styles/typewriter-effect.css';
+import './styles/bio.css';
+import './styles/gallery.css';
+import './styles/app.css';
+import './styles/footer.css';
+import Header from './components/header-nav';
+import { Router, navigate } from '@reach/router';
+import Bio from './components/bio';
+import Portfolio from './components/portfolio';
+import Quals from './components/quals';
+import Footer from './components/footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header />
+      <Router>
+        <Bio path='/' />
+        <Portfolio path='/portfolio' />
+        <Quals path='/quals' />
+      </Router>
+      <Footer />
     </div>
   );
 }

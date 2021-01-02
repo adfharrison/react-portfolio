@@ -1,0 +1,53 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+header {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  font-weight: 500;
+  opacity: 100%;
+
+  font-size: 2.2rem;
+  margin-top: 30px;
+  margin-bottom: 270;
+  height: 55px;
+  z-index: 20;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    font-size: 80px;
+    margin: 20 295;
+    height: 85px;
+  }
+}
+
+.uppermask {
+  width: 100%;
+  height: 250px;
+  position: fixed;
+  z-index: 19;
+
+  background: linear-gradient(
+    180deg,
+    rgba(230, 230, 230, 1) 80%,
+    rgba(230, 230, 230, 0.6) 96%,
+    rgba(230, 230, 230, 0) 100%
+  );
+
+  justify-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .uppermask {
+    height: 280px;
+  }
+}

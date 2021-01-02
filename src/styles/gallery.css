@@ -1,0 +1,15 @@
+.gallery {
+  width: 100%;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 360px;
+  width: 95%;
+}
+.card {
+  display: inline-block;
+  padding: 10px;
+  opacity: 90%;
+}
