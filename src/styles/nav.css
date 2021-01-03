@@ -6,6 +6,11 @@
   justify-content: center;
   margin: 20px auto;
 }
+@media screen and (min-width: 600px) {
+  .nav {
+    width: 50%;
+  }
+}
 .navButton {
   font-size: 1.7rem;
   margin: 10px;

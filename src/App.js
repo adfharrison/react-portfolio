@@ -5,6 +5,7 @@ import './styles/bio.css';
 import './styles/gallery.css';
 import './styles/app.css';
 import './styles/footer.css';
+import './styles/linkButtons.css';
 import Header from './components/header-nav';
 import { Router, navigate } from '@reach/router';
 import Bio from './components/bio';

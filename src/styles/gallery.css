@@ -6,10 +6,11 @@
   overflow-y: hidden;
   white-space: nowrap;
   height: 360px;
-  width: 95%;
+  width: 100%;
 }
 .card {
   display: inline-block;
+
   padding: 10px;
   opacity: 90%;
 }
