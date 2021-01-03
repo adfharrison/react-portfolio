@@ -18,7 +18,8 @@ const Portfolio = (props) => {
         also adding and removing users. Based on a PostgreSQL database, the api
         makes requests using Knex and Node Postgres, and serves them up using
         Express. Full endpoint and helper function TDD was done using jest,
-        supertest and jest-sorted. Hosted on Heroku.
+        supertest and jest-sorted. Hosted on Heroku. If visiting the hosted
+        site, please allow time for the server to spin up to speed!
       </p>
 
       <div class='gallery'>
@@ -66,7 +67,8 @@ const Portfolio = (props) => {
         features are handled by the back end, there is no 3rd party data
         handling services like Firebase etc. most features are rendered
         optimistically to improve performance. The app was developed using
-        mobile-first principles.
+        mobile-first principles. If visiting the hosted site, please allow time
+        for the server to spin up to speed!
       </p>
 
       <div class='gallery'>
