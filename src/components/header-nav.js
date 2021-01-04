@@ -12,9 +12,9 @@ class Header extends React.Component {
         <div className='nav'>
           <Link to='/'>
             <button className='navButton'>Bio</button>
-          </Link>{' '}
+          </Link>
           <Link to='/portfolio'>
-            <button className=' navButton'>Portfolio</button>
+            <button className='navButton'>Portfolio</button>
           </Link>
           <Link to='/quals'>
             <button className='navButton'>Quals</button>

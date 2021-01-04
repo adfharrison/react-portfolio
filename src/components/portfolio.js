@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import beCode from './img/be-code.png';
 import beAPI from './img/be-api.jpg';
 import beTests from './img/be-tests.jpg';
@@ -43,12 +43,16 @@ const Portfolio = (props) => {
         <a
           class='link-button grey-button heroku'
           href='https://alans-news-app.herokuapp.com/api'
+          target='_blank'
+          rel='noreferrer'
         >
           Click here to see the API on Heroku
         </a>
         <a
           class='link-button grey-button github'
           href='https://github.com/adfharrison/be-nc-news-NEW'
+          target='_blank'
+          rel='noreferrer'
         >
           Click here for the GitHub repo
         </a>
@@ -92,12 +96,16 @@ const Portfolio = (props) => {
         <a
           class='link-button grey-button heroku'
           href='https://alans-news.herokuapp.com/'
+          target='_blank'
+          rel='noreferrer'
         >
           Click here to see the App on Heroku
         </a>
         <a
           class='link-button grey-button github'
           href='https://github.com/adfharrison/nc-news-frontend'
+          target='_blank'
+          rel='noreferrer'
         >
           Click here for the GitHub repo
         </a>
@@ -139,12 +147,16 @@ const Portfolio = (props) => {
         <a
           class='link-button grey-button heroku'
           href='https://alans-news.herokuapp.com/'
+          target='_blank'
+          rel='noreferrer'
         >
           Click here to see the App on Heroku
         </a>
         <a
           class='link-button grey-button github'
           href='https://github.com/adfharrison/nc-news-frontend'
+          target='_blank'
+          rel='noreferrer'
         >
           Click here for the GitHub repo
         </a>
