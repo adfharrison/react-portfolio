@@ -2,6 +2,9 @@ import { React, useEffect, useState } from 'react';
 import Gallery from './gallery';
 
 const Bio = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className='flex-container'>
       <div className='bio'>
@@ -15,6 +18,11 @@ const Bio = (props) => {
           and Birmingham, I thought it was time for a change, to yelling at them
           in warm offices in the UK. So, after years as an audio engineer, I
           decided that the time was right to retrain and launch a new career.
+        </p>
+      </div>
+      <Gallery />
+      <div className='bio'>
+        <p>
           Bringing the core live-event skills of staying on the cutting edge of
           technology, coupled with problem solving, working to tight deadlines
           with large teams of colleagues, and putting end-user experience high
@@ -28,7 +36,7 @@ const Bio = (props) => {
           and improve the world.
         </p>
       </div>
-      <Gallery />
+
       <div class='bio'>
         <div class='skills'>
           <h4>Languages / Tech</h4>

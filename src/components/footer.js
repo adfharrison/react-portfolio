@@ -4,8 +4,8 @@ const Footer = (props) => {
   return (
     <div class='footer'>
       <a
-        href='https://www.facebook.com/alan.harrison.9279'
-        class='fa fa-facebook'
+        href='https://github.com/adfharrison'
+        class='fa fa-github'
         target='_blank'
         rel='noreferrer'
       >

@@ -1,12 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import beCode from './img/be-code.png';
 import beAPI from './img/be-api.jpg';
 import beTests from './img/be-tests.jpg';
 import feCode from './img/fe-code.jpg';
 import feArticle from './img/fe-article.jpg';
 import feList from './img/fe-list.jpg';
+import projlogin from './img/login.jpg';
+import projnewUser from './img/newUser.jpg';
+import projUserProfile from './img/userProfile.jpg';
+import projMain from './img/mainPage.jpg';
+import projMapping from './img/mapping.jpg';
+import projJourney from './img/journey.jpg';
 
 const Portfolio = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div class='flex-container bio'>
       <div class='portfolio-header '>
@@ -46,7 +55,7 @@ const Portfolio = (props) => {
           target='_blank'
           rel='noreferrer'
         >
-          Click here to see the API on Heroku
+          API on Heroku
         </a>
         <a
           class='link-button grey-button github'
@@ -54,7 +63,7 @@ const Portfolio = (props) => {
           target='_blank'
           rel='noreferrer'
         >
-          Click here for the GitHub repo
+          GitHub repo
         </a>
       </div>
       <div class='portfolio-header '>
@@ -99,7 +108,7 @@ const Portfolio = (props) => {
           target='_blank'
           rel='noreferrer'
         >
-          Click here to see the App on Heroku
+          App on Heroku
         </a>
         <a
           class='link-button grey-button github'
@@ -107,7 +116,7 @@ const Portfolio = (props) => {
           target='_blank'
           rel='noreferrer'
         >
-          Click here for the GitHub repo
+          GitHub repo
         </a>
       </div>
 
@@ -115,30 +124,42 @@ const Portfolio = (props) => {
         <p>Final Project</p>
       </div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor
-        leo risus, eu viverra nulla fermentum a. Cras ut congue dolor. Morbi
-        dignissim maximus leo, eu sagittis ligula mattis in. Proin efficitur
-        tincidunt volutpat. Suspendisse pulvinar, neque non condimentum
-        pellentesque, lacus turpis eleifend est, tincidunt feugiat ante arcu in
-        velit. Praesent at enim nec odio egestas efficitur. Praesent quis felis
-        eu odio venenatis porta quis vel lectus. Nunc venenatis ante sed ligula
-        rhoncus, at lobortis turpis iaculis. Etiam cursus aliquet lectus euismod
-        accumsan.
+        Safe Home is my final project with Northcoders. This was a collaborative
+        project with three other students. The product is designed to be a
+        safety-centric app for those on nights out to help them get home safely,
+        or potentially for children to notify parents of their whereabouts. It
+        is a full stack development, with our own API, database and front end
+        app. import PropTypes from 'prop-types' uses multile techs, including
+        React with Hooks, Firebase Authentication, Google maps APIs, EmailJS,
+        3rd party geolocation encoding, and multiple CSS methods. It was
+        developed mobile-first, and includes the popular Dark Mode.
       </p>
 
       <div class='gallery'>
         <div class='scrolling-wrapper'>
           <div class='card'>
             {' '}
-            <img id='pic-1' src={feCode} alt='front end code' />
+            <img id='pic-1' src={projlogin} alt='project login page' />
           </div>
           <div class='card'>
             {' '}
-            <img id='pic-2' src={feArticle} alt='page from app' />
+            <img id='pic-2' src={projnewUser} alt='project new user page' />
           </div>
           <div class='card'>
             {' '}
-            <img id='pic-3' src={feList} alt=' another page from app' />
+            <img id='pic-3' src={projUserProfile} alt=' project user page' />
+          </div>
+          <div class='card'>
+            {' '}
+            <img id='pic-4' src={projMain} alt=' project main page' />
+          </div>
+          <div class='card'>
+            {' '}
+            <img id='pic-5' src={projMapping} alt=' project mapping page' />
+          </div>
+          <div class='card'>
+            {' '}
+            <img id='pic-6' src={projJourney} alt=' project journey page' />
           </div>
         </div>
       </div>
@@ -146,19 +167,19 @@ const Portfolio = (props) => {
       <div class='button-container'>
         <a
           class='link-button grey-button heroku'
-          href='https://alans-news.herokuapp.com/'
+          href='https://safe-home-app.herokuapp.com/'
           target='_blank'
           rel='noreferrer'
         >
-          Click here to see the App on Heroku
+          App on Heroku
         </a>
         <a
           class='link-button grey-button github'
-          href='https://github.com/adfharrison/nc-news-frontend'
+          href='https://github.com/adfharrison/nc-final-project-frontend'
           target='_blank'
           rel='noreferrer'
         >
-          Click here for the GitHub repo
+          GitHub repo
         </a>
       </div>
     </div>
