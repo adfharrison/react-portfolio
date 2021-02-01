@@ -167,11 +167,11 @@ const Portfolio = (props) => {
       <div class='button-container'>
         <a
           class='link-button grey-button heroku'
-          href='https://safe-home-app.herokuapp.com/'
+          href='https://safe-home-app.netlify.app'
           target='_blank'
           rel='noreferrer'
         >
-          App on Heroku
+          App on Netlify
         </a>
         <a
           class='link-button grey-button github'
