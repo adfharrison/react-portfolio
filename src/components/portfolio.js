@@ -19,6 +19,106 @@ const Portfolio = (props) => {
   return (
     <div class='flex-container bio'>
       <div class='portfolio-header '>
+        <p>Ongoing projects</p>
+      </div>
+      <p>
+        I am currently developing some cross-platfrom mobile apps using
+        React-Native and Expo, to further diversify and hone my skills. Mobile
+        development is somethign that is very interesting to me. As of this
+        year, about half of all website usage was via mobile devices, and yet I
+        feel it is under-represented in developer education couses, so Ive taken
+        it upon myself to start learning it more thoroughly. Below are some
+        links to ongoing projects
+      </p>
+      <div class='button-container'>
+        <a
+          class='link-button grey-button heroku'
+          href='https://github.com/adfharrison/RN-shop-app'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Repo - A shopping app
+        </a>
+        {/* <a
+          class='link-button grey-button github'
+          href='https://github.com/adfharrison/RN-Meals-app'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Repo - A recipe app
+        </a> */}
+        <a
+          class='link-button grey-button github'
+          href='https://github.com/adfharrison/RN-guess-a-number'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Repo - A number game app
+        </a>
+      </div>
+      <div class='portfolio-header '>
+        <p>Final Project</p>
+      </div>
+      <p>
+        Safe Home is my final project with Northcoders. This was a collaborative
+        project with three other students. The product is designed to be a
+        safety-centric app for those on nights out to help them get home safely,
+        or potentially for children to notify parents of their whereabouts. It
+        is a full stack development, with our own API, database and front end
+        app. import PropTypes from 'prop-types' uses multile techs, including
+        React with Hooks, Firebase Authentication, Google maps APIs, EmailJS,
+        3rd party geolocation encoding, and multiple CSS methods. It was
+        developed mobile-first, and includes the popular Dark Mode.
+      </p>
+
+      <div class='gallery'>
+        <div class='scrolling-wrapper'>
+          <div class='card'>
+            {' '}
+            <img id='pic-1' src={projlogin} alt='project login page' />
+          </div>
+          <div class='card'>
+            {' '}
+            <img id='pic-2' src={projnewUser} alt='project new user page' />
+          </div>
+          <div class='card'>
+            {' '}
+            <img id='pic-3' src={projUserProfile} alt=' project user page' />
+          </div>
+          <div class='card'>
+            {' '}
+            <img id='pic-4' src={projMain} alt=' project main page' />
+          </div>
+          <div class='card'>
+            {' '}
+            <img id='pic-5' src={projMapping} alt=' project mapping page' />
+          </div>
+          <div class='card'>
+            {' '}
+            <img id='pic-6' src={projJourney} alt=' project journey page' />
+          </div>
+        </div>
+      </div>
+
+      <div class='button-container'>
+        <a
+          class='link-button grey-button heroku'
+          href='https://safe-home-app.netlify.app'
+          target='_blank'
+          rel='noreferrer'
+        >
+          App on Netlify
+        </a>
+        <a
+          class='link-button grey-button github'
+          href='https://github.com/adfharrison/nc-final-project-frontend'
+          target='_blank'
+          rel='noreferrer'
+        >
+          GitHub repo
+        </a>
+      </div>
+      <div class='portfolio-header '>
         <p>Back End Project</p>
       </div>
       <p>
@@ -113,69 +213,6 @@ const Portfolio = (props) => {
         <a
           class='link-button grey-button github'
           href='https://github.com/adfharrison/nc-news-frontend'
-          target='_blank'
-          rel='noreferrer'
-        >
-          GitHub repo
-        </a>
-      </div>
-
-      <div class='portfolio-header '>
-        <p>Final Project</p>
-      </div>
-      <p>
-        Safe Home is my final project with Northcoders. This was a collaborative
-        project with three other students. The product is designed to be a
-        safety-centric app for those on nights out to help them get home safely,
-        or potentially for children to notify parents of their whereabouts. It
-        is a full stack development, with our own API, database and front end
-        app. import PropTypes from 'prop-types' uses multile techs, including
-        React with Hooks, Firebase Authentication, Google maps APIs, EmailJS,
-        3rd party geolocation encoding, and multiple CSS methods. It was
-        developed mobile-first, and includes the popular Dark Mode.
-      </p>
-
-      <div class='gallery'>
-        <div class='scrolling-wrapper'>
-          <div class='card'>
-            {' '}
-            <img id='pic-1' src={projlogin} alt='project login page' />
-          </div>
-          <div class='card'>
-            {' '}
-            <img id='pic-2' src={projnewUser} alt='project new user page' />
-          </div>
-          <div class='card'>
-            {' '}
-            <img id='pic-3' src={projUserProfile} alt=' project user page' />
-          </div>
-          <div class='card'>
-            {' '}
-            <img id='pic-4' src={projMain} alt=' project main page' />
-          </div>
-          <div class='card'>
-            {' '}
-            <img id='pic-5' src={projMapping} alt=' project mapping page' />
-          </div>
-          <div class='card'>
-            {' '}
-            <img id='pic-6' src={projJourney} alt=' project journey page' />
-          </div>
-        </div>
-      </div>
-
-      <div class='button-container'>
-        <a
-          class='link-button grey-button heroku'
-          href='https://safe-home-app.netlify.app'
-          target='_blank'
-          rel='noreferrer'
-        >
-          App on Netlify
-        </a>
-        <a
-          class='link-button grey-button github'
-          href='https://github.com/adfharrison/nc-final-project-frontend'
           target='_blank'
           rel='noreferrer'
         >
