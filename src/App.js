@@ -12,6 +12,7 @@ import { Router, navigate } from '@reach/router';
 import Bio from './components/bio';
 import Portfolio from './components/portfolio';
 import Quals from './components/quals';
+
 import Footer from './components/footer';
 
 function App() {
